@@ -16,6 +16,6 @@ sequelize
 app.use("/api/items", require("./routes/api/Item"));
 app.use("/api/users", require("./routes/api/users"));
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));
