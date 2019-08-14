@@ -1,10 +1,11 @@
 ### Description
+
 This is a simple rest project with authentication for educational purposes.
 
-	Configure config/database.js to run it properly
-	Create tables and columns in postgres
+    1) Configure config/database.js to run it properly
+    2) Create tables and columns in postgres
 
-####Inline code
+#### How to run it
 
 `$ npm install`
 `$ npm app.js`
@@ -12,4 +13,3 @@ This is a simple rest project with authentication for educational purposes.
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
 > Follow your heart.
-
